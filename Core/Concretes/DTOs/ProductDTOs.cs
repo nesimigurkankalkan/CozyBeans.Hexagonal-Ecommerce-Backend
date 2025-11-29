@@ -15,6 +15,7 @@ namespace Core.Concretes.DTOs
         public decimal DiscountedRate { get; set; }
         public bool IsStock { get; set; }
         public decimal Rating { get; set; }
+        public int ReviewCount { get; set; }
         public string Origin { get; set; }
         public string RoastLevel { get; set; }
         public string ThumbnailUrl { get; set; }
@@ -31,8 +32,8 @@ namespace Core.Concretes.DTOs
         public int StockQuantity { get; set; }
         public string Origin { get; set; }
         public string RoastLevel { get; set; }
+
         public string FlavorNotes { get; set; }
-        public decimal? Rating { get; set; }
         public bool IsFeatured { get; set; }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
