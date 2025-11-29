@@ -4,7 +4,7 @@ using Data.Context;
 using System.Collections.Generic;
 using Utils.Generics;
 
-namespace Data.Reposaitories
+namespace Data.Repositories
 {
     public class ProductRepository : GenericRepository<Product>, IProductRepository
     {

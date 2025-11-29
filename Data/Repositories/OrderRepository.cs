@@ -3,7 +3,7 @@ using Core.Concretes.Entities;
 using Data.Context;
 using Utils.Generics;
 
-namespace Data.Reposaitories
+namespace Data.Repositories
 {
     public class OrderRepository : GenericRepository<Order>, IOrderRepository
     {

@@ -56,17 +56,16 @@
     <Compile Include="Repositories\AddressRepository.cs" />
     <Compile Include="Repositories\CartItemRepository.cs" />
     <Compile Include="Repositories\CartRepository.cs" />
-    <Compile Include="Repositories\CategoryRepositories.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
     <Compile Include="Repositories\OrderItemRepository.cs" />
     <Compile Include="Repositories\OrderRepository.cs" />
     <Compile Include="Repositories\ProductImageRepository.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\ReviewRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="UnitofWorks\UnitOfWork.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UnitofWorks\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

@@ -65,6 +65,7 @@
     <Compile Include="Concretes\Entities\Review.cs" />
     <Compile Include="Concretes\Entities\Subcategory.cs" />
     <Compile Include="Concretes\Entities\User.cs" />
+    <Compile Include="IUnitOfWorks\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
