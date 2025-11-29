@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstracts\Bases\BaseEntity.cs" />
+    <Compile Include="Abstracts\IRepositories\IProductRepository.cs" />
     <Compile Include="Concretes\Entities\Address.cs" />
     <Compile Include="Concretes\Entities\Cart.cs" />
     <Compile Include="Concretes\Entities\CartItem.cs" />
@@ -57,7 +58,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstracts\IRepositories\" />
     <Folder Include="Abstracts\IServices\" />
     <Folder Include="Concretes\Constants\" />
     <Folder Include="Concretes\DTOs\" />

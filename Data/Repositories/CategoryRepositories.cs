@@ -10,8 +10,10 @@ using Utils.Generics;
 
 namespace Data.Reposaitories
 {
-    public class ProductRepository : GenericRepository<Product>
+    public class CategoryRepositories : GenericRepository<Category>
     {
-        public ProductRepository(ShopContexts db) : base(db) { }
+        public CategoryRepositories(ShopContexts db) : base(db)
+        {
+        }
     }
 }

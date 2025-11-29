@@ -53,7 +53,8 @@
   <ItemGroup>
     <Compile Include="Context\ShopContexts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reposaitories\ProductRepository.cs" />
+    <Compile Include="Repositories\CategoryRepositories.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UnitofWorks\" />
