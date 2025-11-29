@@ -10,9 +10,5 @@ namespace Data.Reposaitories
     {
         public ProductRepository(ShopContexts db) : base(db) { }
 
-        public IEnumerable<Product> FindMany()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

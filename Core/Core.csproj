@@ -43,7 +43,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstracts\Bases\BaseEntity.cs" />
+    <Compile Include="Abstracts\IRepositories\IAddressRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\ICartItemRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\ICartRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\ICategoryRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\IOrderItemRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\IOrderRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\IProductImageRepository.cs" />
     <Compile Include="Abstracts\IRepositories\IProductRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\IReviewRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\ISubCategoryRepository.cs" />
+    <Compile Include="Abstracts\IRepositories\IUserRepository.cs" />
     <Compile Include="Concretes\Entities\Address.cs" />
     <Compile Include="Concretes\Entities\Cart.cs" />
     <Compile Include="Concretes\Entities\CartItem.cs" />
