@@ -40,11 +40,13 @@ namespace Data.UnitofWorks
         private ISubCategoryRepository subCategoryRepository;
         public ISubCategoryRepository SubCategoryRepository => subCategoryRepository = subCategoryRepository ?? new Repositories.SubCategoryRepository(db);
 
-        private IProductRepository productImageRepository;
-        public IProductRepository ProductImageRepository => productRepository = productRepository ?? new Repositories.ProductRepository(db);
+        private IProductImageRepository productImageRepository;
+        public IProductImageRepository ProductImageRepository => productImageRepository = productImageRepository ?? new Repositories.ProductImageRepository(db);
 
         private IReviewRepository reviewRepository;
         public IReviewRepository ReviewRepository => reviewRepository = reviewRepository ?? new Repositories.ReviewRepository(db);
+
+ 
 
         public void Commit()
         {

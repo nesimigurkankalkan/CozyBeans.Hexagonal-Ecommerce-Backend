@@ -9,7 +9,7 @@ namespace Core.IUnitOfWorks
 { //IDisposable ile stackoverflow ve memory leak gibi sorunlarin onune geceriz
     public interface IUnitOfWork:IDisposable
     {
-        IProductImageRepository ProductRepository { get; }
+        IProductRepository ProductRepository { get; }
         ICategoryRepository CategoryRepository { get; }
         ICartRepository CartRepository { get; }
         ICartItemRepository CartItemRepository { get; }
