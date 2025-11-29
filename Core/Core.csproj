@@ -54,6 +54,8 @@
     <Compile Include="Abstracts\IRepositories\IReviewRepository.cs" />
     <Compile Include="Abstracts\IRepositories\ISubCategoryRepository.cs" />
     <Compile Include="Abstracts\IRepositories\IUserRepository.cs" />
+    <Compile Include="Abstracts\IServices\IProductService.cs" />
+    <Compile Include="Concretes\DTOs\ProductDTOs.cs" />
     <Compile Include="Concretes\Entities\Address.cs" />
     <Compile Include="Concretes\Entities\Cart.cs" />
     <Compile Include="Concretes\Entities\CartItem.cs" />
@@ -69,9 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstracts\IServices\" />
     <Folder Include="Concretes\Constants\" />
-    <Folder Include="Concretes\DTOs\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Utils\Utils.csproj">
