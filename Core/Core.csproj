@@ -62,5 +62,11 @@
     <Folder Include="Concretes\Constants\" />
     <Folder Include="Concretes\DTOs\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{298c7033-2d21-4f77-b816-d428b6c5adf9}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
