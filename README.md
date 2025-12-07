@@ -1,6 +1,6 @@
 # CozyBeans - E-Commerce Backend Infrastructure
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8.1-blue) ![Architecture](https://img.shields.io/badge/Architecture-Hexagonal-orange)
+![Architecture](https://img.shields.io/badge/Architecture-Hexagonal-orange) ![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8.1-blue) 
 
 ## 📖 Overview
 
